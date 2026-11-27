@@ -21,7 +21,8 @@
  * @copyright  2026 Didactika.org
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$string['pluginname'] = 'Reproductor de YouTube para Enlace avanzado';
-$string['privacy:metadata'] = 'Esta extensión no almacena datos personales.';
+
 $string['captions'] = 'Mostrar subtítulos por defecto';
 $string['hidecontrols'] = 'Ocultar los controles del reproductor';
+$string['pluginname'] = 'Reproductor de YouTube para Enlace avanzado';
+$string['privacy:metadata'] = 'Esta extensión no almacena datos personales.';
