@@ -21,7 +21,8 @@
  * @copyright  2026 Didactika.org
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$string['pluginname'] = 'Smart URL · YouTube player';
-$string['privacy:metadata'] = 'This extension does not store personal data.';
+
 $string['captions'] = 'Show captions by default';
 $string['hidecontrols'] = 'Hide player controls';
+$string['pluginname'] = 'Smart URL · YouTube player';
+$string['privacy:metadata'] = 'This extension does not store personal data.';

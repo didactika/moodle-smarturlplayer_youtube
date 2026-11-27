@@ -21,11 +21,17 @@
  * @copyright  2026 Didactika.org
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 defined('MOODLE_INTERNAL') || die();
 
 if ($ADMIN->fulltree) {
     foreach (['captions', 'hidecontrols'] as $name) {
-        $settings->add(new admin_setting_configcheckbox('smarturlplayer_youtube/' . $name,
-            get_string($name, 'smarturlplayer_youtube'), '', 0));
+        $setting = new admin_setting_configcheckbox(
+            'smarturlplayer_youtube/' . $name,
+            get_string($name, 'smarturlplayer_youtube'),
+            '',
+            0,
+        );
+        $settings->add($setting);
     }
 }
